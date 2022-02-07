@@ -102,8 +102,10 @@ export default function App() {
     return (
         <main>
             {tenzies && <Confetti />}
-            <div className="roll-count" > {rollCount} </div>
+            <div className="just">
+            <div className="roll-count" > {rollCount}</div>
             <h1 className="title">Tenzies</h1>
+            </div>
             <p className="instructions">Roll until all dice are the same. 
             Click each die to freeze it at its current value between rolls.</p>
             <div className="dice-container">
